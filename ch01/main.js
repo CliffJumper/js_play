@@ -14,7 +14,7 @@
     text.fontSize = 20;
     text.content = 'hello world';
     tool.onMouseDown = function(event) {
-        var c = Shape.Circle(event.point.x, event.point.y, 20);
+        var c = Shape.Circle(event.point, 20);
         c.fillColor = 'green';
     }
 
