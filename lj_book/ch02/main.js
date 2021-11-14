@@ -18,3 +18,4 @@ function draw(n) {
 
 console.log("Your hand:");
 console.log(draw(5));
+console.log(Number.MAX_VALUE);
